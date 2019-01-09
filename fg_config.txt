@@ -1,0 +1,48 @@
+
+config system vdom-property
+    edit "root"
+        set description "MANAGEMENT"
+    next
+    edit "Mindfull"
+        set description "property limits for vdom Mindfull"
+        set session 10000 0
+        set ipsec-phase1 5 0
+        set ipsec-phase2 5 0
+        set dialup-tunnel 5 0
+        set user 10 0
+        set user-group 10 0
+        set sslvpn 10 0
+    next
+    edit "JustLeagye"
+        set description "JustLeagye.
+OS12345676 4-2432423JUL"
+        set session 10000 0
+        set ipsec-phase1 5 0
+        set ipsec-phase2 5 0
+        set dialup-tunnel 5 0
+        set user 10 0
+        set user-group 10 0
+        set sslvpn 10 0
+    next
+    edit "JohnnyBravo"
+        set description "JohnnyBravo - Escalation
+15/04/2016 "
+        set session 10000 0
+        set ipsec-phase1 5 0
+        set ipsec-phase2 5 0
+        set dialup-tunnel 5 0
+        set user 10 0
+        set user-group 10 0
+        set sslvpn 10 0
+    next
+    edit "Chappies"
+        set description "property limits for vdom Chappies"
+        set session 10000 0
+        set ipsec-phase1 5 0
+        set ipsec-phase2 5 0
+        set dialup-tunnel 5 0
+        set user 10 0
+        set user-group 10 0
+        set sslvpn 10 0
+    next
+end
